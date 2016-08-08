@@ -1,0 +1,101 @@
+.button {
+    
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-padding: 10 20 10 20;
+    
+}
+
+.button:hover {
+    
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    
+}
+
+.button:pressed {
+    
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    
+}
+
+.toolBar {
+    
+    -fx-background-color: linear-gradient(#E0E0E0 0%, #B0B0B0 25%, #B0B0B0 75%, #E0E0E0 100%);
+    -fx-background-radius: 0 0 20 0;
+    -fx-border-radius: 0 0 20 0;
+    -fx-border-style: solid;
+    -fx-border-color: #E8E8E8 black black black;
+    
+}
+
+.filtPanel {
+    
+    -fx-background-color: linear-gradient(to right, #E0E0E0 0%, #B0B0B0 25%, #B0B0B0 75%, #E0E0E0 100%);
+    -fx-border-style: solid;
+    -fx-border-color: black;
+    -fx-border-radius: 0 20 20 0;
+    -fx-background-radius: 0 20 20 0;
+    
+}
+
+.messageBox {
+    
+    -fx-background-color: linear-gradient(#E0E0E0 0%, #B0B0B0 25%, #B0B0B0 75%, #E0E0E0 100%);
+    -fx-border-style: solid;
+    -fx-border-color: black black #E8E8E8 black;
+    -fx-border-radius: 0 20 0 0;
+    -fx-background-radius: 0 20 0 0;
+    
+}
+
+.messageLabel {
+    
+    -fx-background-color: white;
+    -fx-background-radius: 0 20 0 0;
+    
+}
+
+.editWindow {
+    
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10,0,0,0);
+    
+}
+
+.editBox {
+    
+    -fx-background-color: gray;
+    
+}
+
+.imageView {
+    
+    -fx-background-color: white;
+    
+}
+
+.root {
+    
+    -fx-background-color: gray;
+    -fx-padding: 0px;
+    
+}
+
+.StackPane {
+    
+    -fx-background-color: #909090;
+    -fx-border-color: #909090
+    
+}
